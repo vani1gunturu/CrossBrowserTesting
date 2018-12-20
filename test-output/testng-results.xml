@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39061" started-at="2018-12-20T16:06:38Z" finished-at="2018-12-20T16:07:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39061" started-at="2018-12-20T16:06:38Z" finished-at="2018-12-20T16:07:17Z">
+      <class name="LaunchingDifferentBrowsers">
+        <test-method status="PASS" signature="Chrome()[pri:0, instance:LaunchingDifferentBrowsers@51081592]" name="Chrome" duration-ms="12378" started-at="2018-12-20T16:06:38Z" finished-at="2018-12-20T16:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chrome -->
+        <test-method status="PASS" signature="Firefox()[pri:0, instance:LaunchingDifferentBrowsers@51081592]" name="Firefox" duration-ms="26634" started-at="2018-12-20T16:06:50Z" finished-at="2018-12-20T16:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firefox -->
+      </class> <!-- LaunchingDifferentBrowsers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
