@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 public class LaunchingDifferentBrowsers {
-	@Test
+	@Test(priority=2)
 	public void Chrome() throws InterruptedException
 	{
 		//setting the path of the chrome driver
@@ -30,7 +30,7 @@ public class LaunchingDifferentBrowsers {
 	    //closing the browser
 		driver.close();
 	}
-	@Test
+	@Test(priority=1)
 	public void Firefox() throws InterruptedException
 	{
 		//setting the path of the gecko driver
